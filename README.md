@@ -1,3 +1,3 @@
-audreywatters.com
+MOOCthulhu, the MOOC Monster
 ========
 
