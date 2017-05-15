@@ -1,73 +1,59 @@
-# Build settings
+---
+title: 'MOOCTHULHU: The MOOC Monster'
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: kramdown
 highlighter: rouge
+description: 'A Hack Education Project
 
-# Site settings
-title: "MOOCTHULHU: The MOOC Monster"
-description: > # this means to ignore newlines until "email:"
-   A Hack Education Project
-
+'
 email: mail@audreywatters.com
-#blog logo
 logo: "/assets/images/mooc.jpg"
-# blog cover
 cover: "/assets/images/cthulhu.jpg"
-covercredits: "http://gambargin.deviantart.com/art/Countess-Holothuriidae-and-Lord-Cthulhu-of-Rlyeh-436676223"
-
-name: 'Audrey Watters'
-author: 'Audrey Watters'
+covercredits: http://gambargin.deviantart.com/art/Countess-Holothuriidae-and-Lord-Cthulhu-of-Rlyeh-436676223
+name: Audrey Watters
+author: Audrey Watters
 author_image: "/assets/images/author.jpg"
-
-paginate:	5
+paginate: 5
 paginate_path: "/blog/page:num"
-permalink: /:categories/:year/:month/:day/:title 
-
-url: "http://moocthulhu.com/" # the base hostname & protocol for your site
-baseurl: ""
-#used to display twitter cards
-twitter_handle: '@hackeducation'
-
-# social icons and sharing options
+permalink: "/:categories/:year/:month/:day/:title"
+url: http://moocthulhu.com/
+baseurl: ''
+twitter_handle: "@hackeducation"
 social:
-  - icon:   twitter
-    url:    https://twitter.com/hackeducation
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&url="
-
-  - icon:   facebook
-    url:    https://facebook.com/history.future.education
-    desc: Like me on facebook
-    share_url: http://www.facebook.com/sharer/sharer.php
-    share_title: ?title=
-    share_link: "?u="
-
-  - icon:   github
-    url:    https://github.com/audreywatters/moocthulhu
-    desc:   Fork me on github
-    share_url: 
-    share_title:
-    share_link:
-
- # - icon:  google-plus
- #   url:   
- #   desc:  
- #   share_url:
- #   share_title:
- #   share_link:
-
-  - icon: rss
-    url:  http://moocthulhu.com//feed.xml
-    desc: Subscribe
-    share_url:
-    share_title:
-    share_link:
-
-  - icon: envelope
-    url:  mailto:mail@audreywatters.com
-    desc: Email
-    share_url:
-    share_title:
-    share_link:    
-  
+- icon: twitter
+  url: https://twitter.com/hackeducation
+  desc: Follow me on twitter
+  share_url: http://twitter.com/share
+  share_title: "?text="
+  share_link: "&url="
+- icon: facebook
+  url: https://facebook.com/history.future.education
+  desc: Like me on facebook
+  share_url: http://www.facebook.com/sharer/sharer.php
+  share_title: "?title="
+  share_link: "?u="
+- icon: github
+  url: https://github.com/audreywatters/moocthulhu
+  desc: Fork me on github
+  share_url: 
+  share_title: 
+  share_link: 
+- icon: rss
+  url: http://moocthulhu.com//feed.xml
+  desc: Subscribe
+  share_url: 
+  share_title: 
+  share_link: 
+- icon: envelope
+  url: mailto:mail@audreywatters.com
+  desc: Email
+  share_url: 
+  share_title: 
+  share_link: 
