@@ -23,7 +23,7 @@ author_image: "/assets/images/author.jpg"
 paginate: 10
 paginate_path: "/blog/page:num"
 permalink: "/:categories/:year/:month/:day/:title"
-url: http://audreywatters.github.io/moocthulhu
+url: http://moocthulhu.hackeducation.com
 baseurl: 
 twitter_handle: "@hackeducation"
 social:
@@ -46,7 +46,7 @@ social:
   share_title: 
   share_link: 
 - icon: rss
-  url: http://audreywatters.github.io/moocthulhu/feed.xml
+  url: http://moocthulhu.hackeducation.com/feed.xml
   desc: Subscribe
   share_url: 
   share_title: 
